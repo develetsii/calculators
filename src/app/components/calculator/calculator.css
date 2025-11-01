@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* === SCROLLBAR CÓSMICA === */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Fondo del track */
+::-webkit-scrollbar-track {
+  background: rgba(2, 0, 133, 0.5);
+  border-radius: 10px;
+}
+
+/* “Thumb” — la parte que se arrastra */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #2f5ef7, #076cf1);
+  border-radius: 10px;
+  border: 2px solid #000e8f; /* borde para que se vea como un halo */
+  box-shadow: 0 0 3px #076cf1, 0 0 12px #2f5ef7;
+}
+
+/* Al pasar el mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #1990ff, #0780f1);
+  box-shadow: 0 0 6px #1277fa, 0 0 20px #0780f1;
+}
+
+
+.calculator {
+    max-width: 360px;
+    width: 100%;
+    margin: 2rem auto;
+    border: 2px solid #3184ff;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px rgba(50, 132, 255, 0.5);
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.screen {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 24px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    height: 64px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.25rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 8px;
+}
+
+.number-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.operation-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.number-buttons button, .operation-buttons button {
+    font-size: 24px;
+    padding: 16px;
+     
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button.pressed {
+    animation: button-press 0.3s;
+}
+
+button.error {
+    animation: button-error 0.5s;
+}
+
+.number-buttons button {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.number-buttons button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.operation-buttons button {
+    background-color: rgba(255, 238, 0, 0.2);
+}
+
+.operation-buttons button:hover {
+    background-color: rgba(255, 238, 0, 0.3);
+}
+
+@keyframes button-press {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@keyframes button-error {
+    0% {
+        transform: translateX(0);
+        background-color: rgba(255, 0, 0, 0.6);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+        
+    }
+}

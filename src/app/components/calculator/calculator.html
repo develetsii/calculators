@@ -1,0 +1,33 @@
+<div class="calculator">
+    <div class="screen">
+        <div class="display">{{ screenDisplay }}</div>
+    </div>
+
+    <div class="buttons">
+        <div class="number-buttons">
+            <button (click)="onNumberClick($event, '1')">1</button>
+            <button (click)="onNumberClick($event, '2')">2</button>
+            <button (click)="onNumberClick($event, '3')">3</button>
+            <button (click)="onNumberClick($event, '4')">4</button>
+            <button (click)="onNumberClick($event, '5')">5</button>
+            <button (click)="onNumberClick($event, '6')">6</button>
+            <button (click)="onNumberClick($event, '7')">7</button>
+            <button (click)="onNumberClick($event, '8')">8</button>
+            <button (click)="onNumberClick($event, '9')">9</button>
+            <button (click)="onNumberClick($event, '0')">0</button>
+            <button (click)="onSpecialCharClick($event, '.')">.</button>
+            <button (click)="onSpecialCharClick($event, 'Ans')" style="font-size: 14px;padding: 0%;">Ans</button>
+        </div>
+
+        <div class="operation-buttons">
+            <button (click)="onClearClick($event)">C</button>
+            <button (click)="onDeleteClick($event)" style="font-size: 14px;padding: 0%;">DEL</button>
+            <button (click)="onOperatorClick($event, '+')">+</button>
+            <button (click)="onOperatorClick($event, '-')">-</button>
+            <button (click)="onOperatorClick($event, 'x')">x</button>
+            <button (click)="onOperatorClick($event, '/')">/</button>
+
+            <button (click)="onEqualsClick($event)" style="grid-column: span 2">=</button>
+        </div>
+    </div>
+</div>
