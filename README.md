@@ -23,18 +23,62 @@ Cada contribución es una oportunidad para aprender y ayudar a que el proyecto a
 </br>
 
 ## 🤝 Cómo contribuir
+Todas las aportaciones son bienvenidas, independientemente de tu experiencia o disponibilidad. Puedes contribuir proponiendo ideas, reportando errores o desarrollando nuevas funcionalidades por tu cuenta.
 
-¡Todas las aportaciones son bienvenidas!
+Algunas formas de participar:
 
-Puedes participar de muchas formas, independientemente de tu nivel de experiencia:
-
-- Proponer nuevas funcionalidades o ideas.
-- Corregir errores.
+- Proponer nuevas funcionalidades o mejoras.
+- Reportar errores y problemas.
 - Mejorar la interfaz y la experiencia de usuario.
-- Refactorizar código y mejorar su calidad.
-- Añadir pruebas y mejorar la cobertura.
+- Refactorizar código y aplicar buenas prácticas.
+- Añadir pruebas.
 - Mejorar la documentación.
-- Experimentar con nuevas funcionalidades de Angular y compartir lo aprendido.
+- Experimentar con Angular y compartir lo aprendido.
+
+### Proponer ideas y mejoras
+Si tienes una idea o encuentras algo que podría mejorarse, puedes abrir una **Issue** explicando tu propuesta o el problema que has encontrado.
+
+No necesitas escribir código para contribuir. Las ideas y sugerencias también ayudan a que el proyecto evolucione.
+
+### Contribuir con código
+
+Si quieres implementar una mejora, puedes trabajar en ella individualmente y enviar una Pull Request (PR) para que el resto de integrantes la revise.
+
+El proceso es sencillo:
+
+1. **Explora el proyecto.** Familiarízate con el código y las funcionalidades existentes.
+2. **Revisa las Issues abiertas.** Comprueba si alguien ya ha propuesto algo similar. Para cambios importantes, abre una Issue antes de empezar y comenta tu propuesta.
+3. **Crea una rama.** Trabaja en una rama independiente para mantener tus cambios separados de la rama principal.
+4. **Implementa y prueba tus cambios.** Desarrolla la solución y comprueba que funciona correctamente.
+5. **Abre una Pull Request.** Explica qué has cambiado y cómo se puede probar.
+6. **Revisa el feedback.** Otros integrantes podrán hacer sugerencias o solicitar cambios antes de aprobar la PR.
+7. **Integra los cambios.** Cuando la PR cumpla los criterios del proyecto y reciba la aprobación necesaria, se podrá incorporar a la rama principal.
+
+Para cambios pequeños, como corregir un error tipográfico, puedes abrir una PR directamente sin crear una Issue previamente.
+
+### Un proyecto para aprender
+
+No esperamos que todo el mundo tenga experiencia previa ni que las primeras contribuciones sean perfectas. Las revisiones forman parte del proceso y sirven para compartir conocimientos, descubrir otras formas de resolver problemas y mejorar el código entre todos.
+
+Puedes contribuir cuando tengas tiempo, trabajar por tu cuenta y participar tanto como quieras. Lo importante es mantener una buena comunicación y estar abierto a aprender de los demás.
+
+**Si tienes una idea, compártela. Si quieres mejorar algo, anímate a contribuir.**
+
+Ejemplo de flujo de trabajo:
+
+```bash
+git checkout -b feature/my-feature
+
+# Implement your changes
+
+git add .
+git commit -m "add my feature"
+git push -u origin feature/my-feature
+```
+
+Después, abre una Pull Request desde tu rama hacia la rama principal del repositorio.
+
+**Una Pull Request no tiene que ser perfecta desde el principio.** Las revisiones forman parte del aprendizaje: preguntar, recibir sugerencias y mejorar el código es precisamente lo que queremos fomentar.
 
 </br>
 
@@ -87,38 +131,6 @@ Este proyecto utiliza principalmente:
 - **Git y GitHub:** control de versiones y colaboración mediante Pull Requests.
 
 El proyecto está pensado para evolucionar con la comunidad. Podemos incorporar nuevas herramientas, probar enfoques diferentes y mejorar nuestra arquitectura a medida que aprendemos.
-
-</br>
-
-
-
-### Flujo de contribución
-
-Para mantener el proyecto organizado y facilitar la colaboración, seguiremos un flujo de trabajo basado en Pull Requests (PRs).
-
-1. **Explora el proyecto.** Familiarízate con el código y las funcionalidades existentes.
-2. **Propón una idea.** Si el cambio es significativo, abre una Issue para explicar qué quieres hacer y comentarlo con el resto del equipo.
-3. **Crea una rama.** Trabaja en una rama independiente para tu cambio.
-4. **Desarrolla y prueba.** Implementa tu propuesta siguiendo las convenciones del proyecto y comprueba que funciona correctamente.
-5. **Abre una Pull Request.** Explica qué has cambiado, por qué y cómo se puede probar.
-6. **Recibe feedback.** Otros integrantes revisarán tu código y podrán sugerir mejoras o pedir cambios.
-7. **Merge.** Cuando la PR cumpla los criterios del proyecto y esté aprobada, se integrará en la rama principal.
-
-Ejemplo de flujo de trabajo:
-
-```bash
-git checkout -b feature/my-feature
-
-# Implement your changes
-
-git add .
-git commit -m "add my feature"
-git push -u origin feature/my-feature
-```
-
-Después, abre una Pull Request desde tu rama hacia la rama principal del repositorio.
-
-**Una Pull Request no tiene que ser perfecta desde el principio.** Las revisiones forman parte del aprendizaje: preguntar, recibir sugerencias y mejorar el código es precisamente lo que queremos fomentar.
 
 </br>
 
