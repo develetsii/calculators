@@ -22,6 +22,22 @@ Cada contribución es una oportunidad para aprender y ayudar a que el proyecto a
 
 </br>
 
+## 🤝 Cómo contribuir
+
+¡Todas las aportaciones son bienvenidas!
+
+Puedes participar de muchas formas, independientemente de tu nivel de experiencia:
+
+- Proponer nuevas funcionalidades o ideas.
+- Corregir errores.
+- Mejorar la interfaz y la experiencia de usuario.
+- Refactorizar código y mejorar su calidad.
+- Añadir pruebas y mejorar la cobertura.
+- Mejorar la documentación.
+- Experimentar con nuevas funcionalidades de Angular y compartir lo aprendido.
+
+</br>
+
 ## 🚀 Empezar a desarrollar
 
 ¿Quieres explorar el proyecto o empezar a contribuir? Sigue estos pasos para ponerlo en marcha en tu entorno local.
@@ -74,21 +90,7 @@ El proyecto está pensado para evolucionar con la comunidad. Podemos incorporar 
 
 </br>
 
-## 🤝 Cómo contribuir
 
-¡Todas las aportaciones son bienvenidas!
-
-Puedes participar de muchas formas, independientemente de tu nivel de experiencia:
-
-- Proponer nuevas funcionalidades o ideas.
-- Corregir errores.
-- Mejorar la interfaz y la experiencia de usuario.
-- Refactorizar código y mejorar su calidad.
-- Añadir pruebas y mejorar la cobertura.
-- Mejorar la documentación.
-- Experimentar con nuevas funcionalidades de Angular y compartir lo aprendido.
-
-</br>
 
 ### Flujo de contribución
 
