@@ -81,6 +81,7 @@ Después, abre una Pull Request desde tu rama hacia la rama principal del reposi
 **Una Pull Request no tiene que ser perfecta desde el principio.** Las revisiones forman parte del aprendizaje: preguntar, recibir sugerencias y mejorar el código es precisamente lo que queremos fomentar.
 
 </br>
+
 ## 🚀 Empezar a desarrollar
 
 ¿Quieres probar la aplicación o empezar a contribuir? Sigue estos pasos para ponerla en marcha en tu ordenador.
