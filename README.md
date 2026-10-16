@@ -81,10 +81,9 @@ Después, abre una Pull Request desde tu rama hacia la rama principal del reposi
 **Una Pull Request no tiene que ser perfecta desde el principio.** Las revisiones forman parte del aprendizaje: preguntar, recibir sugerencias y mejorar el código es precisamente lo que queremos fomentar.
 
 </br>
-
 ## 🚀 Empezar a desarrollar
 
-¿Quieres explorar el proyecto o empezar a contribuir? Sigue estos pasos para ponerlo en marcha en tu entorno local.
+¿Quieres probar la aplicación o empezar a contribuir? Sigue estos pasos para ponerla en marcha en tu ordenador.
 
 ### Requisitos previos
 
@@ -94,11 +93,18 @@ Necesitarás tener instalado:
 - [Angular CLI](https://angular.dev/tools/cli) 20.3.6 o una versión compatible.
 - [Git](https://git-scm.com/).
 
-</br>
-
 ### Instalación
 
-Clona el repositorio y accede al directorio del proyecto:
+**Si quieres contribuir con código**, primero haz un fork del [repositorio](https://github.com/develetsii/calculators) pulsando el botón `Fork` en GitHub. Esto creará una copia del proyecto en tu propia cuenta, donde podrás realizar cambios sin afectar al original.
+
+Después, clona tu fork. Sustituye `TU_USUARIO` por tu nombre de usuario de GitHub:
+
+```bash
+git clone https://github.com/TU_USUARIO/calculators.git
+cd calculators
+```
+
+Si solo quieres explorar o probar el proyecto, puedes clonar directamente el repositorio original:
 
 ```bash
 git clone https://github.com/develetsii/calculators.git
@@ -118,6 +124,12 @@ ng serve
 ```
 
 Abre [http://localhost:4200/](http://localhost:4200/) en tu navegador. La aplicación se actualizará automáticamente cuando modifiques los archivos del proyecto.
+
+### ¿Y ahora qué?
+
+Si has hecho un fork y quieres contribuir, crea una rama para tus cambios, súbelos a tu repositorio y abre una Pull Request hacia el repositorio original.
+
+Consulta la sección [Cómo contribuir](#cómo-contribuir) para ver el proceso completo.
 
 </br>
 
